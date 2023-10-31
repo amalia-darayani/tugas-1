@@ -1,0 +1,32 @@
+%Amalia Darayani
+%112022045
+
+%soal4.2
+
+clc
+clear
+
+%matrik identitas dimensi 5x5 
+%Rumus A = eye(5,5) 
+
+A = eye (5,5) 
+
+%matrik dengan dimensi 3x3 dengan elemen semuanya bernilai nol
+%Rumus B = zeros(3,3) 
+
+B = zeros(3, 3) 
+
+%matrik dengan dimensi 4x4 dengan elemen semuanya bernilai satu
+%Rumus C = ones(4,4) 
+
+C = ones (4,4) 
+
+%matrik dengan dimensi 3x4 dimana elemen terdistribusi antar nol dan satu (default n=m) 
+%Rumus D = rand(3,4) 
+
+D = rand(3,4) 
+
+%matrik dengan dimensi 3x4 dimana elemen terdistribusi normal 
+%Rumus e = randn(3,4) 
+
+e= randn(3,4) 
